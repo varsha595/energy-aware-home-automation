@@ -17,7 +17,6 @@ strategy, written to double as your submission's design section.
 ## Project structure
 
 ```
-home-automation-planner/
 ├── docs/
 │   ├── DESIGN.md                  # domain definition, heuristic, replanning strategy
 │   ├── VIVA_NOTES.md              # design decisions & trade-offs for the viva
@@ -49,7 +48,8 @@ home-automation-planner/
 ## Setup
 
 ```bash
-cd home-automation-planner
+git clone https://github.com/varsha595/energy-aware-home-automation.git
+cd energy-aware-home-automation
 pip install -r requirements.txt
 ```
 
