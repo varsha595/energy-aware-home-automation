@@ -1,0 +1,13 @@
+scenario,strategy,strategy_label,avg_energy_used,avg_replan_count,avg_replan_extra_energy,avg_total_minutes,completed_fraction,budget_per_window,trials
+quiet-morning,energy_aware,Energy-aware (ours),57.0,1.6666666666666667,0.0,97,1.0,800,3
+quiet-morning,naive,Naive (no energy-awareness),57.0,1,0.0,97,1.0,800,3
+quiet-morning,scratch_replan,Replan-from-scratch baseline,68.9,1.3333333333333333,1.400000000000001,98.66666666666667,1.0,800,3
+typical-day,energy_aware,Energy-aware (ours),105.60000000000001,2.6666666666666665,0.0,825,1.0,800,3
+typical-day,naive,Naive (no energy-awareness),255.0,3,0.0,171,1.0,800,3
+typical-day,scratch_replan,Replan-from-scratch baseline,195.79999999999998,4.333333333333333,101.0,825,1.0,800,3
+busy-day-new-load,energy_aware,Energy-aware (ours),152.39999999999998,4,0.0,914,1.0,800,3
+busy-day-new-load,naive,Naive (no energy-awareness),372.0,4,0.0,260,1.0,800,3
+busy-day-new-load,scratch_replan,Replan-from-scratch baseline,238.59999999999997,5.333333333333333,134.8,920,1.0,800,3
+price-spike,energy_aware,Energy-aware (ours),92.4,3,0.0,815,1.0,800,3
+price-spike,naive,Naive (no energy-awareness),222.0,2.3333333333333335,0.0,161,1.0,800,3
+price-spike,scratch_replan,Replan-from-scratch baseline,148.0,4.666666666666667,62.79999999999999,815,1.0,800,3
